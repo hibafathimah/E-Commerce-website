@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans:wght@400;500;600&family=Abril+Fatface&family=Archivo:wght@600;700&family=Cabin:wght@400;500;600;700&family=Cinzel:wght@400;500;600;700;800;900&family=DM+Sans:opsz,wght@9..40,200;9..40,300;9..40,400;9..40,500;9..40,600;9..40,700;9..40,800;9..40,900&family=Gabarito:wght@400;500;600;700;800;900&family=Hind:wght@300;400&family=Lato:wght@300;400;700&family=Libre+Franklin:wght@700&family=Montserrat:ital,wght@0,600;0,800;0,900;1,500&family=Mulish:wght@400;500;600;700;800;900;1000&family=Noto+Sans:wght@400;500;600;700;800&family=Nunito+Sans:opsz,wght@6..12,200;6..12,300;6..12,500;6..12,600;6..12,700;6..12,800&family=Onest:wght@200;300;400;500;600;700&family=Playfair+Display:wght@500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@500;600&family=Raleway:wght@100;200;300;400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Poppins', sans-serif;
+}
+.tote-ally{
+    font-size: 40px;
+}
+.discover{
+    font-size: 16px;
+    font-weight: 500;
+}
+.shop-now{
+    font-size: 13px;
+    font-weight: 600;
+    width: 150px;
+    border-radius: 20px;
+    height: 40px;
+}
+.checkout{
+    font-size: 13px;
+    font-weight: 600;
+    width: 200px;
+    border-radius: 20px;
+    height: 40px;
+}
+.third-row{
+    margin-top: 60px;
+    height: 530px;
+}
+.row-four,.row-five{
+    margin-top: 100px;
+}
+.third-row-text{
+    color: black;
+}
+button:hover{
+    transform: scale(1.2);
+    transition: transform .2s;
+}
+.subscribe{
+    margin-top: 160px;
+    font-size: 13px;
+    font-weight: 600;
+    width: 150px;
+    height: 40px;
+    border-radius: 20px;
+}
+.send{
+    width: 100px;
+    font-size: 14px;
+    font-weight: 600;
+    width: 130px;
+    border-radius: 20px;
+    height: 40px;
+}
+.dive{
+    font-size: 14px;
+    font-weight: 500;
+}
+.pdt-img:hover{
+    transform: scale(1.2);
+}
+.drp-down input{
+    font-size: 12px;
+    width: 40px;
+    height: 25px;
+    text-align: center;
+}
+.drp-down input:focus{
+    outline: none;
+}
+.row-six{
+    margin-top: 150px;
+}
+.contact{
+    width: 160px;
+    font-size: 12px;
+    border: none;
+}
+.check{
+    width: 540px;
+    margin-left: 15px;
+}
+.your-order{
+    width: 400px;
+    height: 300px;
+    margin-left: 130px;
+}
+.row-cart{
+    margin-top: 130px;
+}
+.total {
+    font-size: 46px;
+    font-weight: 500;
+}
+.tote-tale{
+    font-size: 48px;
+}
+.line{
+    width: 90%;
+}
+.line-mycart{
+    width: 80%;
+}
+.addtocart:hover{
+    transform: scale(1.2);
+}
+.nav-item:hover{
+    transform: scale(1.2);
+}
+a:hover{
+    text-decoration: none;
+}
+.addtocart{
+    font-size: 14px;
+    width: 100%;
+}
