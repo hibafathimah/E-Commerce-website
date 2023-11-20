@@ -17,6 +17,7 @@
     width: 150px;
     border-radius: 20px;
     height: 40px;
+    cursor: pointer;
 }
 .checkout{
     font-size: 13px;
@@ -46,9 +47,11 @@ button:hover{
     width: 150px;
     height: 40px;
     border-radius: 20px;
+    cursor: pointer;
 }
 .send{
     width: 100px;
+    cursor: pointer;
     font-size: 14px;
     font-weight: 600;
     width: 130px;
@@ -60,7 +63,9 @@ button:hover{
     font-weight: 500;
 }
 .pdt-img:hover{
-    transform: scale(1.2);
+    transform: scale(1.1);
+    border-radius: 10px;
+    border: none;
 }
 .drp-down input{
     font-size: 12px;
@@ -96,7 +101,7 @@ button:hover{
     font-weight: 500;
 }
 .tote-tale{
-    font-size: 48px;
+    font-size: 50px;
 }
 .line{
     width: 90%;
@@ -106,14 +111,38 @@ button:hover{
 }
 .addtocart:hover{
     transform: scale(1.2);
+    background-color: black;
+    border: none;
+}
+.search-icon:hover{
+    transform: scale(1.4);
 }
 .nav-item:hover{
     transform: scale(1.2);
+    
 }
 a:hover{
     text-decoration: none;
 }
 .addtocart{
+    cursor: pointer;
     font-size: 14px;
     width: 100%;
 }
+
+  @keyframes fallFromTop {
+    0% {
+      transform: translateY(-50%);
+      color: yellow;
+    }
+    100% {
+      transform: translateY(1vh);
+      color: black;
+    }
+  }
+
+  .falling-text {
+    animation: fallFromTop 2s ease-in-out infinite; 
+  }
+
+ 
